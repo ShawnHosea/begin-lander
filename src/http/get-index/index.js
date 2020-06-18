@@ -16,22 +16,25 @@ let body = `
   </head>
   <body>
     <small>Hero</small>
-    <div class="center-text">
-      <h1>Launch serverless apps...fast af.</h1>
-      <h2> 
-        Begin is a product development tool for building serverless web sites & APIs.
-      </h2>
-      <p>Launch now, no credit card required!</p>
-    </div>
     <div style="
-    margin: auto;
-    max-width: 500px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
-    ">
-    <button>Launch now!</button>
-    <button>Learn more</button>
+    height: 20rem;">
+      <div class="center-text">
+        <h1>Launch serverless apps...fast af.</h1>
+        <h2> 
+          Begin is a product development tool for building serverless web sites & APIs.
+        </h2>
+        <p>Launch now, no credit card required!</p>
+      </div>
+      <div style="
+      margin: auto;
+      max-width: 500px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 2rem;
+      ">
+      <button>Launch now!</button>
+      <button>Learn more</button>
+      </div>
     </div>
     <hr>
     <p class="center-text">Used by:</p>
@@ -96,7 +99,7 @@ let body = `
     <hr>
     <div>
       <small>Div3</small>
-      <h2 class="center-text">Testimonial</h2>
+      <h2 class="center-text">Testimonial1</h2>
       <div style="
       text-align: center;
       "><img src="/_static/testimonial0.png" height="400"/></div>
@@ -108,11 +111,44 @@ let body = `
       <h2 class="center-text">Works with all of your favorite frontend frameworks!</h2>
       <div style="
       text-align: center;
-      "><img src="/_static/starters.png" height="400"/></div>
+      "><img src="/_static/starters.png" height="400"/>
+      </div>
       <h3>Get started</h3>
       <button>GitHub</button>
     </div>
     <hr>
+    <small>Div5</small>
+    <div>
+      <h2 class="center-text">How does it work?</h2>
+      <p>#Images will be made from these points below.</p>
+      <ul>
+        <li>Downloads the source code</li>
+        <li>Runs automations (lint, build, test, etc)</li>
+        <li>If the build is green and the commit is to master: code is deployed to an identical staging environment</li>
+        <li>If the build is green and the commit is a tag: code is deployed to production</li>
+      </ul>
+      <a href="/">Learn more</a>
+    </div>
+    <hr>
+    <div>
+      <small>Div6</small>
+      <h2 class="center-text">Testimonial 2</h2>
+      <div style="
+      text-align: center;
+      "><img src="/_static/testimonial0.png" height="400"/></div>
+      <p></p>
+    </div>
+    <hr>
+    <small>Div7</small>
+    <div class="center-text">
+      <h2>Launch your new app today!</h2>
+      <button>GitHUb</button>
+    </div>
+    <hr>
+    <small>Footer</small>
+    <div>
+      
+    </div>
   </body>
 </html>
 `
