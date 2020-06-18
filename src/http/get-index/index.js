@@ -74,25 +74,25 @@ let body = `
     ">
       <div>
         <h2>Cloud functions</h2>
-        <p>Cloud functions are the building blocks of the modern web app. With Begin, you have access to regular HTTP functions, event functions, and scheduled functions. Together in tandem, you have exstensible capabilities that power your app.</p>
+        <p>Cloud functions are the building blocks of the modern web app. With Begin, you have access to regular HTTP functions, event functions, and scheduled functions. Together in tandem, you have extensible capabilities that power your app.</p>
         <a href="/">Learn more</a>
       </div>
      
       <div>
         <h2>Begin data</h2>
-        <p>Every Begin app comes bundled with Begin Data, a durable, easy to use, fully managed, SSD-based key-value and document database that's free and in-network.</p>
+        <p>Every Begin app comes bundled with Begin Data, a durable, easy to use, fully managed, SSD-based key-value, and document database that's free and in-network.</p>
         <a href="/">Learn more</a>
       </div>
      
       <div>
         <h2>Static assets</h2>
-        <p>Begin has the ability to build (if necessary) and deploy static assets to blob storage (S3) deliver them via CDN out of the box.</p>
+        <p>Begin can build (if necessary) and deploy static assets to blob storage (S3) to deliver them via CDN out of the box.</p>
         <a href="/">Learn more</a>
       </div>
 
       <div>
         <h2>Powerful dev environment</h2>
-        <p>You need a safe environement to quickly test code without disturbing the user experience and this is where CI/CD somes in. Being able to test your apps changes in Staging before Production is a must in modern software development. It is way too dangerous to go from local dev environment to production without a stage in between.</p>
+        <p>It would be best if you had a safe environment to test code without disturbing the user experience. This is where CI/CD comes in—being able to test your apps changes in Staging before Production is a must in modern software development. It is way too dangerous to go from a local dev environment to production without a stage in between.</p>
         <a href="/">Learn more</a>
       </div>
     </div>
@@ -123,9 +123,9 @@ let body = `
       <p>#Images will be made from these points below.</p>
       <ul>
         <li>Downloads the source code</li>
-        <li>Runs automations (lint, build, test, etc)</li>
+        <li>Runs automation (lint, build, test, etc.)</li>
         <li>If the build is green and the commit is to master: code is deployed to an identical staging environment</li>
-        <li>If the build is green and the commit is a tag: code is deployed to production</li>
+        <li>If the build is green and the commit is a tag: code is deployed to production/li>
       </ul>
       <a href="/">Learn more</a>
     </div>
