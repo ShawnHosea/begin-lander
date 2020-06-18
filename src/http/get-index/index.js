@@ -15,55 +15,104 @@ let body = `
     <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" rel="icon" type="image/x-icon">
   </head>
   <body>
+    <small>Hero</small>
     <div class="center-text">
-      <h1>Modern apps. Built fast af.</h1>
+      <h1>Launch serverless apps...fast af.</h1>
       <h2> 
-        Begin is a ridiculously quick platform for building modern web apps, sites, & APIs.
+        Begin is a product development tool for building serverless web sites & APIs.
       </h2>
-      <p>Get started for free, no credit card required.</p>
+      <p>Launch now, no credit card required!</p>
+    </div>
+    <div style="
+    margin: auto;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    ">
+    <button>Launch now!</button>
+    <button>Learn more</button>
     </div>
     <hr>
-    <div>
-      <h2>Bringing the cloud to the frontend || Bringing the backend to the frontend.</h2>
-      <p>Begin is a platform that empowers devs by giving them the infrastructure to build web applications just as powerful as any monolith of the past. It is often said that we now have more computing power in our pocket than the computer aboard Apollo 11 did. With Begin, you now how more development power in your environment than all monoliths of the past.</p>
-      <p>With Begin, developers can now scale their ideas to the max in a safe and declarative development environment.</p>
-      <p>What this does is create enough continuous escape velocity to make shipping new features, and bug fixes a fast and seamless process and gives all developers the tools to see their ideas to fruition.</p>
-      <p></p>
-    </div>
-    <hr>
-    <div>
-      <h2>Weild the power of AWS</h2>
-      <p>The modern developer has a host of new tools that significantly maximize the scope of what is possible in contemporary web development. Begin makes using AWS a possibility for anyone. This means we have provided a more accessible way within our platform to take advantage of several of these services and technologies offered by AWS.</p>
-    </div>
-    <hr>
-    <div>
-      <h2>Quality Assurance w/IaC & CI/CD</h2>
-      <p>Begin starts with a declarative approach in the sense that you can provision several helpful features into your app by simply updating your .arc manifest file. This greatly enhances the speed of development when you know the expected outcome simply from updating your .arc file.</p>
-      <p>Shipping velocity is one of the most important aspects of product creation and software development. You need a safe environement to quickly test code without disturbing the user experience and this is where CI/CD somes in. Being able to test your apps changes in Staging before Production is a must in modern software development. It is way too dangerous to go from local dev environment to production without a stage in between.</p>
-    </div>
-    <hr>
-
+    <p class="center-text">Used by:</p>
     <div style="
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    text-align: center;
+    ">
+      <div><img src="/_static/C1.png" height="30"/></div>
+      <div><img src="/_static/C1.png" height="30"/></div>
+      <div><img src="/_static/C1.png" height="30"/></div>
+      <div><img src="/_static/C1.png" height="30"/></div>
+      <div><img src="/_static/C1.png" height="30"/></div>
+    </div>
+    <hr>
+    <div>
+      <small>Div1</small>
+      <h2 class="center-text">Weild the power of AWS</h2>
+      <p>Begin makes using AWS a possibility for anyone. This means we have provided a more accessible way within our platform to take advantage of several of these services and technologies offered by AWS.</p>
+      <p>Begin.com apps are built with cutting edge serverless primitives:</p>
+      <ul>
+        <li>Static asserts with S3</li>
+        <li>HTTP and Web Sockets with API Gateway</li>
+        <li>Compute with Lambda</li>
+        <li>Async events with SNS</li>
+        <li>Scheduled events with EventBridge</li>
+        <li>Persistent storage with DynamoDB</li>
+      </ul>
+    </div>
+    <hr>
+    <small>Div2</small>
+    <div style="
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2rem;
     ">
       <div>
-        <h2>HTTP Functions</h2>
-        <p>HTTP functions are the building blocks of the modern web app. These HTTP functions receive and respond to regular HTTP (and HTTPS) requests. It is the foundation of any data exchange on the Web. You can pack just about whatever you want into an HTTP function.</p>
+        <h2>Cloud functions</h2>
+        <p>Cloud functions are the building blocks of the modern web app. With Begin, you have access to regular HTTP functions, event functions, and scheduled functions. Together in tandem, you have exstensible capabilities that power your app.</p>
+        <a href="/">Learn more</a>
       </div>
      
       <div>
-        <h2>Event Functions</h2>
-        <p>If HTTP functions are the building blocks of your app then Event functions are the switches that allow them to talk to each other in a declarative manner giving your app automated extensibility.</p>
+        <h2>Begin data</h2>
+        <p>Every Begin app comes bundled with Begin Data, a durable, easy to use, fully managed, SSD-based key-value and document database that's free and in-network.</p>
+        <a href="/">Learn more</a>
       </div>
      
       <div>
-        <h2>Scheduled Functions</h2>
-        <p>Begin makes using AWS a possiblity for anyone.</p>
+        <h2>Static assets</h2>
+        <p>Begin has the ability to build (if necessary) and deploy static assets to blob storage (S3) deliver them via CDN out of the box.</p>
+        <a href="/">Learn more</a>
       </div>
-      
+
+      <div>
+        <h2>Powerful dev environment</h2>
+        <p>You need a safe environement to quickly test code without disturbing the user experience and this is where CI/CD somes in. Being able to test your apps changes in Staging before Production is a must in modern software development. It is way too dangerous to go from local dev environment to production without a stage in between.</p>
+        <a href="/">Learn more</a>
+      </div>
     </div>
+    <hr>
+    <div>
+      <small>Div3</small>
+      <h2 class="center-text">Testimonial</h2>
+      <div style="
+      text-align: center;
+      "><img src="/_static/testimonial0.png" height="400"/></div>
+      <p></p>
+    </div>
+    <hr>
+    <small>Div4</small>
+    <div class="center-text">
+      <h2 class="center-text">Works with all of your favorite frontend frameworks!</h2>
+      <div style="
+      text-align: center;
+      "><img src="/_static/starters.png" height="400"/></div>
+      <h3>Get started</h3>
+      <button>GitHub</button>
+    </div>
+    <hr>
   </body>
 </html>
 `
