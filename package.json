@@ -3,10 +3,15 @@
   "version": "0.0.0",
   "description": "Begin basic Hello World! app for Node",
   "scripts": {
-    "start": "cross-env NODE_ENV=testing npx sandbox"
+    "start": "cross-env NODE_ENV=testing npx sandbox",
+    "build": "npm run build",
+    "styles": "npx cssmitten ./config.json > ./public/styles.css"
   },
   "devDependencies": {
-    "@architect/sandbox": "latest",
+    "@architect/sandbox": "^1.12.7",
     "cross-env": "^7.0.2"
+  },
+  "dependencies": {
+    "cssmitten": "^2.0.0"
   }
 }
