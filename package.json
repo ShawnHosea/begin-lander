@@ -4,7 +4,6 @@
   "description": "Begin basic Hello World! app for Node",
   "scripts": {
     "start": "cross-env NODE_ENV=testing npx sandbox",
-    "build": "npm run build",
     "styles": "npx cssmitten ./config.json > ./public/styles.css"
   },
   "devDependencies": {
