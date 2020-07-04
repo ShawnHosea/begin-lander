@@ -12,6 +12,6 @@
     "cross-env": "^7.0.2"
   },
   "dependencies": {
-    "cssmitten": "^2.0.0"
+    "cssmitten": "^3.0.1"
   }
 }
