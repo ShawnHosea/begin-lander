@@ -21,3 +21,17 @@ nav {
 .Div2C {
     max-width: 1000px;
 }
+
+.testimonial {
+    max-width: 600px;
+    
+}
+
+.testContent {
+    max-width: 600px;
+    place-items: center;
+}
+
+.frameworks {
+    place-items: center;
+}
